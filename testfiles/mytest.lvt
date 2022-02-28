@@ -1,0 +1,17 @@
+\input{regression-test}
+\documentclass[a4paper]{article}
+\usepackage{fontspec}
+\usepackage{libertine}
+\usepackage[fallback]{xeCJK}
+\begin{document}
+\showoutput
+\START
+Lorem
+
+章學成
+
+ipsum
+
+\clearpage
+\OMIT
+\end{document}
